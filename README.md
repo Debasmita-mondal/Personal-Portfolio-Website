@@ -4,6 +4,10 @@ Developed a web and mobile-responsive portfolio website showcasing personal info
 ## Website Link-
 https://debasmitaportfolio.netlify.app/
 
+## Have a look at the Website 
+### Home Page-
 
 ![Screenshot 2024-06-17 001204](https://github.com/Debasmita-mondal/Personal-Portfolio-Website/assets/93224746/5b0f5f69-f275-4e0e-84fb-6aaa17f49e8b)
+
+### About Page-
 
