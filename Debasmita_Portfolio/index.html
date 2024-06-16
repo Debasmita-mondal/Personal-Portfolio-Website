@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debasmit"s Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/72f6b03a31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1><span>Hi, This is Debasmita Mondal</span><br>Living in beta, always evolving</h1>
+                <br>
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1fsxjQkkYdJnbvhnpqRlg8we-HCqUUiys/view?usp=sharing">Download Resume</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify;"><span>Currently pursuing my undergraduate degree at IGDTUW, I am deeply passionate about coding and developing innovative solutions for real-world challenges. Proficient in C++ and well-versed in Data Structures and Algorithms, I am actively engaged in app development, utilizing tools such as Dart, Firebase, and various APIs. Participating in hackathons, I excel in creating projects under strict deadlines, honing my ability to handle pressure effectively.My enthusiasm extends to mathematics and machine learning, where I am exploring diverse fields such as AI and ML. In addition, my involvement in various college societies has contributed significantly to my personal growth and confidence. Possessing strong critical problem-solving skills and adept at public speaking, I aspire to leverage my natural leadership abilities to drive positive change in the corporate world.</span></p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages:</span><br>C++, Python, C, SQL</li>
+                            <li><span>Technologies/Frameworks:</span><br>Flutter, Firebase, CSS, HTML, NumPy, Pandas, Matplotlib, scikit-learn, Tensorflow, GitHub</li>
+                            <li><span>Core CS fundamentals:</span><br>OOPS, DBMS, Operating System, Computer Networks, System Design</li>
+                            <li><span>Soft Skills:</span><br>Leadership, Public Speaking, Time management, Team work</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jun 2024 – Present</span><br>Summer Research Internship | Carnegie Mellon University</li>
+                            <li><span>Jun 2023 – Jul 2023</span><br>Machine Learning and Android Development Intern | The Sparks Foundation</li>
+                            <li><span>Jan 2023</span><br>Winner of the Institute-level of Solving For India Hackathon conducted by Google Cloud,</li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Dec 2021 – May 2025</span><br>Indira Gandhi Delhi Technical University For Women, Delhi<br>Bachelor in Mechanical and Automation Engineering, CGPA: 8.84</li>
+                            <li><span>Apr 2018 – Mar 2020</span><br>Haryana Vidya Mandir, Kolkata<br>Senior Secondary (Science with Computer Sc.) CBSE BOARD , Percentage : 89.40</li>
+                            <li><span>Jan 2006 – Feb 2018</span><br>Holy Child Institute, Kolkata<br>Secondary ( WBBSE BOARD ), Percentage : 92.10</li>
+                            
+
+                        </ul>
+                    </div>
+
+                    
+                </div>
+                
+            </div>
+    </div>
+
+
+
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title"> My Projects </h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-regular fa-credit-card"></i>
+                <h2>Credit Card Approval Prediction</h2>
+                <p>Implemented exploratory data analysis and trained the model using Logistic Regression which results in an accuracy score of
+                    99.09 percent. Technologies Used: NumPy, Pandas, scikit-learn, Matplotlib, Logistic Regression</p>
+                    <a href="https://colab.research.google.com/drive/1tah3Wy0g2nfPDFnwMWhkmOrSC_Yew18k?usp=sharing##scrollTo=UvY528R1Yyhc"> Project Link</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-pagelines"></i>
+                <h2>SoWhat (Kya Boyein)</h2>
+                <p> Developed a Mobile App to support sustainable agriculture and farming for farmers which predicts appropriate crops that can
+                    be sowed in a particular region. Integrated the Decision Forest Machine Learning Model using TensorFlow Lite, which gives an accuracy of 98 percent.</p>
+                    <a href="https://github.com/Debasmita-mondal/SoWhat-Kya-Boyein-"> Project Link</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-spa"></i>
+                <h2>Chittiksha (Team Project)</h2>
+                <p>Developed a full-stack website, that provides integrated solutions for individuals facing mental health issues. Implemented features such as resources, age-specific articles, a meditation room, and online consultation with like-minded
+                    individuals. Technologies Used: ReactJS, CSS, HTML, Wix, Javascript</p>
+                    <a href="https://github.com/Debasmita-mondal/Chitt-Iksha"> Project Link</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div id="achievements">
+    <div class="container">
+        <h1 class="sub-title"> My Achievements </h1>
+        <div class="achievement-list">
+            <div class="achievement">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>AMEX Discovery Program </h3>
+                    <p>Selected as a member of the prestigious 2024 American Express India Campus Discovery Program Cohort. Contributed to a cohort of 150 members chosen from 5000+ submissions. </p>
+                    <a href="https://drive.google.com/file/d/1EnkOSj0OSLCwLufDPKBp_Rss-JKT1z38/view"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="achievement">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Hackathon Winner</h3>
+                    <p>Winner of the Institute-level of Solving For India Hackathon conducted by GeeksforGeeks and Google Cloud, got selected
+                        for the regional level out of 100+ applicants.</p>
+                    <a href="https://drive.google.com/file/d/1bdIftDjmdHQFn-2n47DgKfktLGXhpiRs/view?usp=drive_link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            <div class="achievement">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>JBNSTS Scholarship holder</h3>
+                    <p>Selected as a JBNSTS Senior Scholar 2020 from among 50,000 applicants, awarded by the Government of West Bengal, receiving a 4-year B.Tech scholarship.</p>
+                    <a href="https://drive.google.com/file/d/1nl_1V0YLipvpZYfcOC3gvqG2HFps_akH/view"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+</div>   
+
+
+
+
+
+<div id="contact">
+    <div  class="container">
+    <div class="row">
+      <div  class="contact-left">
+          <h1 class="sub-title"> Contact Me</h1>
+          <p> <i class="fa-solid fa-paper-plane"></i> debasmita02mondal@gmail.com </p>
+          <p> <i class="fa-solid fa-phone-volume"></i> 7596947907</p>
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/in/debasmita-mondal-8aa59b18a/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://x.com/_Debasmita02"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/debasmita_02/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/Debasmita-mondal"><i class="fa-brands fa-github"></i></a>
+              </div>
+          </div>
+      <div  class="contact-right">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn1 btn2">Submit</button>
+
+        </form>
+        <span id="msg"></span>
+      </div>
+  </div>
+  </div>
+  <div class="copyright">
+    <p> Developed By Debasmita Mondal  <i class="fa-solid fa-rocket"></i></p>
+  </div>
+</div>
+
+
+
+
+   <script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script> 
+
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzdtFeGnlVdm4WX3wKlRykyUQtMrV5uYBcpsmdHa2IhN0qyyotqk7WX19xyhe2DSfI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function() {
+                msg.innerHTML=""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+          var sidemenu = document.getElementById("sidemenu");
+          function openmenu() {
+
+            sidemenu.style.right="0";
+          }
+
+          function closemenu() {
+
+          sidemenu.style.right="-200px";
+          }
+
+
+  </script>
+</body>
+</html>
